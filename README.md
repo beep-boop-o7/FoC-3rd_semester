@@ -1,8 +1,4 @@
-# 2nd-semester-satellite
-
-## Includes
-Put your nonstandard library includes here (the ones you had to install separately)
-available in the arduino ide unless otherwise noted
+# FoC-3rd_semester
 
 ## How to use git (and github)
 make sure git is installed.
