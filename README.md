@@ -12,12 +12,12 @@ git init
 
 clone the repo(repository) (copy it to your computer)
 ```
-git clone https://github.com/beep-boop-o7/2nd-semester-satellite.git
+git clone https://github.com/beep-boop-o7/FoC-3rd_semester.git
 ```
 
 set repo as origin
 ```
-git remote add origin https://github.com/beep-boop-o7/2nd-semester-satellite.git
+git remote add origin https://github.com/beep-boop-o7/FoC-3rd_semester.git
 ```
 
 ### Using
