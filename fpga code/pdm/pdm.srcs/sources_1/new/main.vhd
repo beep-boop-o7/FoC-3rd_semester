@@ -47,6 +47,11 @@ architecture Behavioral of main is
                clk : in std_ulogic;
                o   : out bit);
     end component;
+    component out_downscale is
+        Port ( input  : in bit;
+               clk    : in std_ulogic;
+               output : out bit);
+    end component;
     signal r, i, c : bit_vector (3 downto 0);
 begin
     b1:fullAdder port map (a => increment(0), b => i(0), c_in => '0', sum => r(0), c_out => c(0));
@@ -59,5 +64,5 @@ begin
     s3:in_out_store port map (i => r(2), clk => clk, o => i(2));
     s4:in_out_store port map (i => r(3), clk => clk, o => i(3));
     
-    s_out:in_out_store port map (i => c(3), clk => clk, o => output);
+    s_out:out_downscale port map (input => c(3), clk => clk, output => output);
 end Behavioral;
