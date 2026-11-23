@@ -7,6 +7,7 @@ make sure git is installed.
 
 initilize a git instance in the directory(folder) that you want the project stored in
 ```
+cd /the/path/to/where/you/want/the/repo
 git init
 ```
 
