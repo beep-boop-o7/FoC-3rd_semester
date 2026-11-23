@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 18 15:06:40 2026
+# Process ID         : 8748
+# Current directory  : C:/Users/jonas/Documents/project_FOC/project_FOC.runs/synth_1
+# Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file           : C:/Users/jonas/Documents/project_FOC/project_FOC.runs/synth_1/top.vds
+# Journal file       : C:/Users/jonas/Documents/project_FOC/project_FOC.runs/synth_1\vivado.jou
+# Running On         : LAPTOP-SK2D05CI
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16505 MB
+# Swap memory        : 7247 MB
+# Total Virtual      : 23753 MB
+# Available Virtual  : 4444 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
