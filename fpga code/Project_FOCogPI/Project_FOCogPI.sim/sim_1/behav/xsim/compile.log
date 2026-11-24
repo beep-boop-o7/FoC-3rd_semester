@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonas/Documents/project_FOC/project_FOC.srcs/sources_1/new/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top'
+WARNING: [VRFC 10-3093] actual for formal port 's_axis_cartesian_tdata' is neither a static name nor a globally static expression [C:/Users/jonas/Documents/project_FOC/project_FOC.srcs/sources_1/new/top.vhd:144]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/jonas/Documents/project_FOC/project_FOC.srcs/sim_1/new/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_tb'
