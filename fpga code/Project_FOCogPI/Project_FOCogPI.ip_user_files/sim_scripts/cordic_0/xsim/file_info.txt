@@ -1,1 +1,0 @@
-cordic_0.vhd,vhdl,xil_defaultlib,../../../../project_FOC.gen/sources_1/ip/cordic_0/sim/cordic_0.vhd,incdir="../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef"

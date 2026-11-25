@@ -1,1 +1,0 @@
-if { [catch {[add wave *]}] } {}
