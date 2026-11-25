@@ -1,0 +1,56 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 10-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 25 08:55:22 2026
+# Process ID         : 10292
+# Current directory  : C:/Users/jonas/AppData/Roaming/Xilinx/Vivado
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent28180
+# Log file           : C:/Users/jonas/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file       : C:/Users/jonas/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On         : LAPTOP-SK2D05CI
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16505 MB
+# Swap memory        : 7247 MB
+# Total Virtual      : 23753 MB
+# Available Virtual  : 17518 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jonas/Documents/Project_FOCogPI/Project_FOCogPI.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:19 . Memory (MB): peak = 1762.293 ; gain = 356.871
+update_compile_order -fileset sources_1
+save_project_as project_foc_og_pi_fr C:/Users/jonas/Documents/project_foc_og_pi_fr -force
+archive_project C:/Users/jonas/Documents/project_foc_og_pi_frfr.xpr.zip -temp_dir C:/Users/jonas/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10292-LAPTOP-SK2D05CI -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jonas/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10292-LAPTOP-SK2D05CI' for archiving project
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/jonas/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10292-LAPTOP-SK2D05CI/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/jonas/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10292-LAPTOP-SK2D05CI/PrjAr/_X_/project_foc_og_pi_fr.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
