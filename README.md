@@ -44,6 +44,11 @@ git push -u origin subsystem/feature_name
 ```
 after that you go into github to make a merge request to merge your branch into main
 
+switch back to main
+```
+git checkout main
+```
+
 to pull the latest changes from main
 ```
 git pull
