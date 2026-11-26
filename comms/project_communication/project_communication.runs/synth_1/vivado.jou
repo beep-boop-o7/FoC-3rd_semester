@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 19 13:08:22 2026
+# Process ID         : 73552
+# Current directory  : C:/Users/snopy/Downloads/project_communication/project_communication.runs/synth_1
+# Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file           : C:/Users/snopy/Downloads/project_communication/project_communication.runs/synth_1/top.vds
+# Journal file       : C:/Users/snopy/Downloads/project_communication/project_communication.runs/synth_1\vivado.jou
+# Running On         : SupremeNugget
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : Snapdragon(R) X - X126100 - Qualcomm(R) Oryon(TM) CPU
+# CPU Frequency      : 2957 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 16758 MB
+# Swap memory        : 28139 MB
+# Total Virtual      : 44897 MB
+# Available Virtual  : 10358 MB
+#-----------------------------------------------------------
+source top.tcl -notrace
