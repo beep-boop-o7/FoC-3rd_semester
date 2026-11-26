@@ -1,0 +1,111 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Thu Nov 26 14:20:51 2026
+# Process ID         : 11968
+# Current directory  : C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19632 C:\Users\jonas\Documents\3. Semester\FOC_DONE_UDEN_PDM\FOC_DONE_UDEN_PDM.xpr
+# Log file           : C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/vivado.log
+# Journal file       : C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM\vivado.jou
+# Running On         : LAPTOP-SK2D05CI
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16505 MB
+# Swap memory        : 7247 MB
+# Total Virtual      : 23753 MB
+# Available Virtual  : 8571 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/FOC_DONE_UDEN_PDM.xpr}
+update_compile_order -fileset sources_1
+set_property STEPS.SYNTH_DESIGN.ARGS.INCREMENTAL_MODE quick [get_runs synth_1]
+open_project {C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM1/FOC_DONE_UDEN_PDM.xpr}
+update_compile_order -fileset sources_1
+current_project FOC_DONE_UDEN_PDM
+add_files -norecurse {C:/Users/jonas/Documents/pdm_local/pdm.srcs/sources_1/new/fullAdder.vhd C:/Users/jonas/Documents/pdm_local/pdm.srcs/sources_1/new/half_adder.vhd C:/Users/jonas/Documents/pdm_local/pdm.srcs/sources_1/new/out_downscale.vhd C:/Users/jonas/Documents/pdm_local/pdm.srcs/sources_1/new/in_out_store.vhd C:/Users/jonas/Documents/pdm_local/pdm.srcs/sources_1/new/main.vhd}
+update_compile_order -fileset sources_1
+current_project FOC_DONE_UDEN_PDM(2)
+close_project
+open_project {C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM1/FOC_DONE_UDEN_PDM.xpr}
+update_compile_order -fileset sources_1
+current_project FOC_DONE_UDEN_PDM
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+set_property STEPS.SYNTH_DESIGN.ARGS.INCREMENTAL_MODE off [get_runs synth_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/FOC_DONE_UDEN_PDM.srcs/sources_1/new/Park_transform.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/FOC_DONE_UDEN_PDM.srcs/sources_1/new/Park_transform.vhd}}
+remove_files  {{C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/FOC_DONE_UDEN_PDM.srcs/sources_1/new/Park_transform.vhd}}
+file delete -force {C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/FOC_DONE_UDEN_PDM.srcs/sources_1/new/Park_transform.vhd}
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1
+archive_project {C:/Users/jonas/Documents/3. Semester/FOC_DONE_MED_PDM.xpr.zip} -temp_dir {C:/Users/jonas/Documents/3. Semester/FOC_DONE_UDEN_PDM/.Xil/Vivado-11968-LAPTOP-SK2D05CI} -force -include_local_ip_cache
