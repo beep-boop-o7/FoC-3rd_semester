@@ -1,0 +1,52 @@
+INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detected. Your current license is active and will expire on 10-sep-2027.
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov 25 14:28:50 2026
+# Process ID         : 33300
+# Current directory  : C:/Users/jonas/Documents/pdm_local
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent19948 C:\Users\jonas\Documents\pdm_local\pdm.xpr
+# Log file           : C:/Users/jonas/Documents/pdm_local/vivado.log
+# Journal file       : C:/Users/jonas/Documents/pdm_local\vivado.jou
+# Running On         : LAPTOP-SK2D05CI
+# Platform           : Windows 11
+# Operating System   : 26300
+# Processor Detail   : AMD Ryzen 5 4600H with Radeon Graphics         
+# CPU Frequency      : 2994 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 16505 MB
+# Swap memory        : 7247 MB
+# Total Virtual      : 23753 MB
+# Available Virtual  : 12416 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jonas/Documents/pdm_local/pdm.xpr
+INFO: [Project 1-313] Project file moved from '/home/andreas/Projects/code/P3-Motor-Control/FoC-3rd_semester/fpga code/pdm' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/../../.Xilinx/Vivado/2026.1/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/home/andreas/.Xilinx/Vivado/2026.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/jonas/Documents/pdm_local/pdm.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:13 . Memory (MB): peak = 1728.879 ; gain = 313.027
+update_compile_order -fileset sources_1
+archive_project C:/Users/jonas/Documents/pdm_12bit.xpr.zip -temp_dir C:/Users/jonas/Documents/pdm_local/.Xil/Vivado-33300-LAPTOP-SK2D05CI -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jonas/Documents/pdm_local/.Xil/Vivado-33300-LAPTOP-SK2D05CI' for archiving project
+INFO: [Project 1-313] Project file moved from '/home/andreas/Projects/code/P3-Motor-Control/FoC-3rd_semester/fpga code/pdm' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/../../.Xilinx/Vivado/2026.1/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/home/andreas/.Xilinx/Vivado/2026.1/xhub/board_store/xilinx_board_store'.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/jonas/Documents/pdm_local/pdm.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/jonas/Documents/pdm_local/.Xil/Vivado-33300-LAPTOP-SK2D05CI/PrjAr/_X_/pdm.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2026.1/Vivado/data/ip'.
