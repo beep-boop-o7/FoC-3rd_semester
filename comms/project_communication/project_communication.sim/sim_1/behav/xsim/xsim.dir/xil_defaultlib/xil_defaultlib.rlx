@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sim_1/new/tb_rpm_link.vhd,1795614053,vhdl,,,,tb_rpm_link,,,,,,,,
+C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/rpm_link.vhd,1795613910,vhdl,C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sim_1/new/tb_rpm_link.vhd,,,rpm_link,,,,,,,,
+C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/top.vhd,1795613910,vhdl,,,,top,,,,,,,,
+C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/uart_rx.vhd,1795084341,vhdl,C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/rpm_link.vhd,,,uart_rx,,,,,,,,
+C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/uart_tx.vhd,1795084341,vhdl,C:/Users/snopy/Downloads/project_communication/project_communication.srcs/sources_1/new/rpm_link.vhd,,,uart_tx,,,,,,,,
